@@ -2,11 +2,13 @@
 
 ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20Express-blue)
 
+## 🌐 Live Demo: [https://github-portfolio-analy-zer-qbuj.vercel.app/](https://github-portfolio-analy-zer-qbuj.vercel.app/)
+
 A powerful tool designed to help students and early-career developers turn their GitHub repositories into recruiter-ready proof. Analyzing documentation, code quality, and consistency, this tool provides an objective score and actionable feedback.
 
 ## 🎥 Demo Video
 
-[INSERT YOUR DEMO VIDEO LINK HERE]
+[Watch Demo Video](https://drive.google.com/file/d/1EKtSFGzCJ2gElqxZhm1EpJ14nX4PW1TL/view?usp=sharing)
 *(Required for Hackathon Submission: Include a screen-recording video of your live, working project)*
 
 ## ✨ Features
