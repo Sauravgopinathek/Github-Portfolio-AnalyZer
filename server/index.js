@@ -1,7 +1,8 @@
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
-require("dotenv").config({ path: "../.env" });
+const path = require("path");
+require("dotenv").config();
 
 const {
   calculateDocumentationScore,
@@ -22,6 +23,9 @@ const app = express();
 app.use(cors()); // Allow all origins for the hackathon
 app.use(express.json());
 
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, "public")));
+
 const PORT = process.env.PORT || 7860;
 
 function extractUsername(url) {
@@ -30,7 +34,7 @@ function extractUsername(url) {
 }
 
 app.get("/", (req, res) => {
-  res.send("在此 backend runs! The GitHub Analyzer functionality is at /analyze.");
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 app.post("/analyze", async (req, res) => {

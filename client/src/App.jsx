@@ -19,7 +19,7 @@ function App() {
     setError("");
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000";
+      const apiUrl = import.meta.env.VITE_API_URL || "";
       console.log("Attempting to connect to backend at:", apiUrl);
 
       const res = await axios.post(`${apiUrl}/analyze`, {
