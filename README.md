@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20Express-blue)
 
-## 🌐 Live Demo:[https://sauravgopinathek.github.io/Github-Portfolio-AnalyZer.io/](https://sauravgopinathek.github.io/Github-Portfolio-AnalyZer.io/)
+## 🌐 Live Demo:[https://github-portfolio-analyzer-zewuyr4bwa-uc.a.run.app/](https://github-portfolio-analyzer-zewuyr4bwa-uc.a.run.app/)
 
 A powerful tool designed to help students and early-career developers turn their GitHub repositories into recruiter-ready proof. Analyzing documentation, code quality, and consistency, this tool provides an objective score and actionable feedback.
 
